@@ -45,7 +45,8 @@ class ExploreScreen extends StatelessWidget {
                 children: [
                   MovieCard(
                     title: 'The irishman',
-                    imageUrl: '',
+                    imageUrl:
+                        'https://tse3.mm.bing.net/th/id/OIP.TJ4J-terls0z3jqy8amShQHaJ_?rs=1&pid=ImgDetMain&o=7&rm=3',
                     onTap: () {
                       Navigator.push(
                         context,
@@ -59,7 +60,7 @@ class ExploreScreen extends StatelessWidget {
                   MovieCard(
                     title: 'Her',
                     imageUrl:
-                        'https://tse3.mm.bing.net/th/id/OIP.TJ4J-terls0z3jqy8amShQHaJ_?rs=1&pid=ImgDetMain&o=7&rm=3',
+                        'https://pics.filmaffinity.com/Her-481503906-large.jpg',
                     onTap: () {},
                   ),
                 ],

@@ -61,7 +61,14 @@ class ExploreScreen extends StatelessWidget {
                     title: 'Her',
                     imageUrl:
                         'https://pics.filmaffinity.com/Her-481503906-large.jpg',
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => const MovieDetailScreen(),
+                        ),
+                      );
+                    },
                   ),
                 ],
               ),
